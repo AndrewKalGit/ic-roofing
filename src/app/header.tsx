@@ -26,17 +26,17 @@ const Header = () => {
 
   return (
     <header
-      className={`fixed z-10 w-full bg-transparent shadow-2xl transition-transform duration-300 ${
+      className={`fixed z-10 w-full sm:bg-transparent shadow-2xl transition-transform duration-300 ${
         showHeader ? 'translate-y-0' : '-translate-y-full'
       }`}
     >
-      <div className="w-full py-1 px-7 lg:px-14 shadow">
+      <div className="w-full py-0 sm:py-1 px-7 lg:px-14 shadow">
         <div className="flex h-16 items-center justify-between">
           <div className="flex-1 flex justify-start xl:items-center md:gap-12">
             <div className="text-gray-700">
               <span className="sr-only">Home</span>
               <svg
-                className="h-8"
+                className="h-10 bg-gray-50/75 p-1 rounded-full"
                 viewBox="0 0 64 64"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
