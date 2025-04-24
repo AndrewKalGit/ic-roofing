@@ -4,7 +4,7 @@ const banner = () => {
   <div className="mx-auto w-screen max-w-screen-xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8 lg:py-32">
     <div className="max-w-prose text-left leading-relaxed">
      <div className="py-14 px-7 rounded-lg drop-shadow-2xl bg-gray-100/90">
-      <h1 className="mb-4 text-3xl font-bold text-gray-900 sm:text-4xl">
+      <h1 className="mb-4  text-2xl sm:text-3xl font-bold text-gray-900 md:text-4xl">
         Reliable Roofing. Done 
         <strong className="text-gray-500">  Right</strong>
        .
