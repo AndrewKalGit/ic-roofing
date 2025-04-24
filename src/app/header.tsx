@@ -3,8 +3,8 @@ const header = () => {
   <header className="bg-white drop-shadow-2xl">
   <div className="w-full py-1 px-7 lg:px-14 shadow">
     <div className="flex h-16 items-center justify-between">
-      <div className="flex-1 md:flex md:items-center md:gap-12">
-        <div className="block text-gray-700">
+      <div className="flex-1 flex justify-start xl:items-center md:gap-12">
+        <div className="text-gray-700">
           <span className="sr-only">Home</span>
      <svg className="h-8" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
   <rect x="20" y="8" width="24" height="4" rx="1" fill="currentColor" />
@@ -45,7 +45,7 @@ const header = () => {
           </ul>
         </nav> */}
 
-        <div className="flex items-center gap-4">
+        <div className="hidden xl:flex items-center gap-4">
           <div className="sm:flex sm:gap-4">
             <button>
             <a
