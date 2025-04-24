@@ -10,10 +10,19 @@ const Header = () => {
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
 
+      // Prevent flicker and disable hiding near the top
+      if (currentScrollY < 100) {
+        setShowHeader(true);
+        setLastScrollY(currentScrollY);
+        return;
+      }
+
+      if (Math.abs(currentScrollY - lastScrollY) < 5) return;
+
       if (currentScrollY > lastScrollY) {
-        setShowHeader(false); // Scrolling down
+        setShowHeader(false); // scrolling down
       } else {
-        setShowHeader(true); // Scrolling up
+        setShowHeader(true); // scrolling up
       }
 
       setLastScrollY(currentScrollY);
