@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     title: "Industrial & Commercial Roofing",
     description:
       "We handle all your roofing needs — repairs, maintenance, coatings, and more.",
-    url: "https://yourroofingcompany.com",
+    url: "https://icroofing.vercel.app/",
     siteName: "Industrial & Commercial Roofing",
     images: [
       {
