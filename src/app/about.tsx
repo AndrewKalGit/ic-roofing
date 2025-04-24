@@ -4,7 +4,7 @@ import roofimg2 from "../../public/images/upscaledbeforeafter.webp"
 
 const about = () => {
     return (
- <section className="mt-2 lg:mt-14">
+ <section className="bg-gray-50 mt-2 lg:mt-14">
   <div className="mx-auto max-w-screen-2xl px-4 py-8 sm:px-6 lg:px-8 mb-8">
     <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
       <div className="bg-gray-50 bg-no-repeat bg-cover md:p-12 lg:px-16 lg:py-32 flex flex-col items-center text-center drop-shadow-2xl rounded-xl">
