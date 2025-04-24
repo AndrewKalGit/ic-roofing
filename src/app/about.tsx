@@ -7,7 +7,7 @@ const about = () => {
  <section className="mx-1 bg-gray-100 pt-7 pb-1">
   <div className="mx-auto py-8 sm:px-6 lg:px-8 mb-8">
     <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
-      <div className="bg-gray-50 bg-no-repeat bg-cover md:p-12 lg:px-16 lg:py-32 flex flex-col items-center text-center drop-shadow-2xl rounded-xl">
+      <div className="bg-gray-50 bg-no-repeat bg-cover md:p-12 lg:px-16 lg:py-32 flex flex-col items-center text-center drop-shadow-2xl rounded-xl  mx-1 sm:mx-0">
       <div className="p-14 lg:p-0">
           <h2 className="drop-shadow-2xl text-lg sm:text-2xl lg:text-4xl font-bold xl:pt-4 text-gray-900">
             Big or Small, We Handle It All
@@ -30,17 +30,17 @@ const about = () => {
       </div>
       </div>
 
-      <div className="grid grid-cols-2 gap-4 drop-shadow-2xl">
+      <div className="grid grid-cols-2 gap-4 drop-shadow-2xl mx-1 sm:mx-0">
         <Image
           alt="Man on roof working"
           src={roofimg1}
-          className="h-40 w-full object-cover sm:h-56 md:h-full"
+          className="h-40 w-full drop-shadow-lg object-cover sm:h-56 md:h-full"
         />
 
         <Image
           alt="Before after roof job"
           src={roofimg2}
-          className="h-40 w-full object-cover sm:h-56 md:h-full"
+          className="h-40 w-full drop-shadow-lg object-cover sm:h-56 md:h-full"
         />
       </div>
     </div>
