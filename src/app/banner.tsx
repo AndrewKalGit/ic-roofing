@@ -1,0 +1,41 @@
+const banner = () => {
+    return (
+<section className="grid justify-items-center-center bg-[url(../../public/images/sceneryroof.webp)] bg-center bg-no-repeat bg-cover h-[70vh] sm:h-[85vh] bg-white lg:grid place-content-center pb-20">
+  <div className="mx-auto w-screen max-w-screen-xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8 lg:py-32">
+    <div className="max-w-prose text-left leading-relaxed">
+     <div className="py-14 px-7 rounded-2xl drop-shadow-2xl bg-gray-100/90">
+      <h1 className="mb-4 text-4xl font-bold text-gray-900 sm:text-5xl">
+        Your Roofing  
+        <strong className="text-gray-700">  Experts</strong>
+       
+      </h1>
+
+      <p className="text-base text-pretty text-gray-900 sm:text-lg/relaxed">
+        We handle all your roofing needs — repairs, maintenance, coatings, and more. No job too big or small.
+      </p>
+
+      <div className="flex gap-4 mt-8 mb-2">
+         <button>
+            <a
+              className="rounded-md bg-gray-700 px-5 py-4 text-sm font-medium text-white shadow-sm hover:bg-gray-600"
+                href="tel:2013970552"
+            >
+             Get Free Estimate: (201) 397-0552
+            </a>
+            </button>
+{/* 
+        <a
+          className="inline-block rounded border border-gray-200 px-5 py-3 font-medium text-gray-700 shadow-sm transition-colors hover:bg-gray-50 hover:text-gray-900"
+          href="#"
+        >
+          Learn More
+        </a> */}
+      </div>
+    </div>
+    </div>
+  </div>
+</section>
+    )
+}
+
+export default banner
