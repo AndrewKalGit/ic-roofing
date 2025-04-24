@@ -1,6 +1,6 @@
 const banner = () => {
     return (
-<section className="drop-shadow-xl grid justify-items-center-center bg-[url(../../public/images/sceneryroof.webp)] bg-center bg-no-repeat bg-cover bg-gray-50 lg:grid place-content-center">
+<section className="drop-shadow-xl h-auto lg:h-[90vh] grid justify-items-center-center bg-[url(../../public/images/sceneryroof.webp)] bg-center bg-no-repeat bg-cover bg-gray-50 lg:grid place-content-center">
   <div className="mx-auto w-screen max-w-screen-xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8 lg:py-32">
     <div className="max-w-prose text-left leading-relaxed">
      <div className="py-14 px-7 rounded-lg drop-shadow-2xl bg-gray-100/90">
