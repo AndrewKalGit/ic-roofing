@@ -4,8 +4,8 @@ import roofimg2 from "../../public/images/upscaledbeforeafter.webp"
 
 const about = () => {
     return (
- <section className="bg-gray-100 pt-7">
-  <div className="mx-auto x-4 py-8 sm:px-6 lg:px-8 mb-8">
+ <section className="bg-gray-100 pt-7 pb-4">
+  <div className="mx-auto py-8 sm:px-6 lg:px-8 mb-8">
     <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
       <div className="bg-gray-50 bg-no-repeat bg-cover md:p-12 lg:px-16 lg:py-32 flex flex-col items-center text-center drop-shadow-2xl rounded-xl">
       <div className="p-14 lg:p-0">
@@ -13,7 +13,7 @@ const about = () => {
             Big or Small, We Handle It All
           </h2>
 
-          <p className="text-gray-900 text-xs pb-2 lg:text-xl px-2 sm:px-4 mt-2 sm:mt-4 sm:block">
+          <p className="text-gray-900 text-xs pb-2 lg:text-xl px-0 sm:px-4 mt-2 sm:mt-4 sm:block">
       We service all of your roofing needs, no matter the size. We specialize in roof repairs, roof maintenance, protective roof coatings, and more.
           </p>
 
