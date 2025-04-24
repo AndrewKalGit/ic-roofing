@@ -1,7 +1,7 @@
 const header = () => {
     return (
   <header className="bg-white drop-shadow-2xl">
-  <div className="w-full px-7 lg:px-14 shadow">
+  <div className="w-full py-1 px-7 lg:px-14 shadow">
     <div className="flex h-16 items-center justify-between">
       <div className="flex-1 md:flex md:items-center md:gap-12">
         <div className="block text-gray-700">
