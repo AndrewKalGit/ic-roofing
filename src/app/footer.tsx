@@ -28,7 +28,7 @@ const footer = () => {
     </div>
 
     <div
-      className="mt-16 border-t border-gray-100 pt-8 sm:flex sm:items-center sm:justify-between lg:mt-24"
+      className="mt-16 border-t border-gray-100 pt-8 flex sm:items-center justify-center lg:mt-24"
     >
       <div>
         <p className="text-gray-700 transition hover:opacity-75">
@@ -49,8 +49,8 @@ const footer = () => {
         </li>
       </ul> */}
 
-      <ul className="mt-8 flex justify-center gap-6 sm:mt-0 lg:justify-end">
-        <li>
+      {/* <ul className="mt-8 flex justify-center gap-6 sm:mt-0 lg:justify-end"> */}
+        {/* <li>
           <a
             href="#"
             rel="noreferrer"
@@ -86,7 +86,7 @@ const footer = () => {
               />
             </svg>
           </a>
-        </li>
+        </li> */}
 {/* 
         <li>
           <a
@@ -142,7 +142,7 @@ const footer = () => {
             </svg>
           </a>
         </li> */}
-      </ul>
+      {/* </ul> */}
     </div>
   </div>
 </footer>
