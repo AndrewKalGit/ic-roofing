@@ -17,7 +17,7 @@ const Banner = () => {
   return (
     <section
       className={`transition-all duration-700 ease-out rounded-xl transform ${
-        scrolled ? 'px-2 lg:px-8' : 'px-0 lg:px-2'
+        scrolled ? 'px-1.5 lg:px-8' : 'px-0 lg:px-2'
       }`}
     >
       <div className="drop-shadow-xl min-h-[67.5vh] lg:min-h-[90vh] bg-[url(../../public/images/sunroof5.webp)] bg-center bg-no-repeat bg-cover grid justify-center lg:place-content-start">
