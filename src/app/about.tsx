@@ -13,8 +13,8 @@ const about = () => {
             Big or Small, We Handle It All
           </h2>
 
-          <p className="text-gray-900 text-xs pb-2 lg:text-xl px-0 sm:px-4 mt-2 sm:mt-4 sm:block">
-      We service all of your roofing needs, no matter the size. We specialize in roof repairs, roof maintenance, protective roof coatings, and more.
+              <p className="text-gray-900 text-xs pb-2 lg:text-xl px-0 sm:px-4 mt-2 sm:mt-4 sm:block">
+          We service all of your roofing needs, no matter the size. We specialize in roof repairs, roof maintenance, protective roof coatings, and more.
           </p>
 
           <div className="mt-4 md:mt-8">
@@ -30,7 +30,7 @@ const about = () => {
       </div>
       </div>
 
-      <div className="grid grid-cols-2 gap-4  mx-1 sm:mx-0">
+      <div className="grid grid-cols-2 gap-4 mx-1 sm:mx-0">
         <Image
           alt="Man on roof working"
           src={roofimg1}

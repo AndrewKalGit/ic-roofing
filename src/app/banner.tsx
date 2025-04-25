@@ -4,13 +4,12 @@ const banner = () => {
   <div className="mx-auto w-screen max-w-screen-xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8 lg:py-32">
     <div className="max-w-prose pt-3 sm:pt-2 lg:pt-0 text-left leading-relaxed">
      <div className="py-14 px-7 rounded-lg drop-shadow-2xl bg-gray-100/90">
-      <h1 className="mb-4  text-2xl sm:text-3xl font-bold text-gray-900 md:text-4xl">
-        Reliable Roofing. Done 
-        <strong className="text-gray-500">  Right</strong>
-       .
+      <h1 className="mb-4  text-2xl sm:text-3xl font-bold text-gray-800 md:text-4xl">
+        <strong className="text-gray-900"> Reliable </strong>
+        Roofing. Done Right
       </h1>
 
-      <p className="text-base text-pretty text-gray-900 sm:text-lg/relaxed">
+      <p className="text-base text-pretty text-gray-800 sm:text-lg/relaxed">
         We handle all your roofing needs — repairs, maintenance, coatings, and more. No job too big or small.
       </p>
 
