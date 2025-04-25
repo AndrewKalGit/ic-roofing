@@ -61,9 +61,9 @@ const Header = () => {
           <div className="md:flex md:items-center md:gap-12">
             <div className="hidden xl:flex items-center gap-4">
               <div className="sm:flex sm:gap-4">
-                <button>
+                <button className='drop-shadow-xl'>
                   <a
-                    className="rounded-md bg-gray-700 px-5 py-3 text-sm font-medium text-white shadow-sm hover:bg-gray-600"
+                    className="rounded-md bg-gray-900 px-5 py-3 text-sm font-medium text-white shadow-sm hover:bg-gray-800"
                     href="tel:2013970552"
                   >
                     Get Free Estimate: (201) 397-0552

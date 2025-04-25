@@ -4,7 +4,7 @@ import roofimg2 from "../../public/images/upscaledbeforeafter.webp"
 
 const about = () => {
     return (
- <section className="mx-1 bg-gray-100 pt-7 pb-1">
+ <section className=" bg-gray-100 pt-7 pb-1">
   <div className="mx-auto py-8 sm:px-6 lg:px-8 mb-8">
     <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
       <div className="bg-gray-50 bg-no-repeat bg-cover md:p-12 lg:px-16 lg:py-32 flex flex-col items-center text-center drop-shadow-2xl rounded-lg  mx-1 sm:mx-0">
@@ -18,9 +18,9 @@ const about = () => {
           </p>
 
           <div className="mt-4 md:mt-8">
-        <button className="flex justify-center w-full">
+        <button className="flex drop-shadow-xl justify-center w-full">
         <a
-          className="rounded-md bg-gray-800 drop-shadow-2xl px-4 py-4  text-xs sm:text-sm font-medium text-white shadow-sm hover:bg-gray-800/75 flex justify-center"
+          className="rounded-md bg-gray-900 drop-shadow-2xl px-4 py-4  text-xs sm:text-sm font-medium text-white shadow-sm hover:bg-gray-800 flex justify-center"
             href="tel:2013970552"
         >
              Get Free Estimate: (201) 397-0552

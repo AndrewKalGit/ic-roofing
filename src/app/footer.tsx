@@ -18,13 +18,14 @@ const Footer = () => {
           <li>Saturday: 7 AM–8 PM</li>
         </ul>
       </div>
-
+      <button className="drop-shadow-xl">
       <a
         href="tel:2013970552"
-        className="mt-8 inline-block rounded-lg border bg-gray-700 border-gray-500 px-12 py-3 text-sm font-medium text-white hover:bg-gray-700/90 focus:ring-3 focus:outline-hidden"
+        className="mt-8 inline-block rounded-lg border bg-gray-900 border-gray-500 px-12 py-3 text-sm font-medium text-white hover:bg-gray-800 focus:ring-3 focus:outline-hidden"
             >
          Get Free Estimate: (201) 397-0552
             </a>
+            </button>
     </div>
 
     <div
