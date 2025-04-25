@@ -30,7 +30,7 @@ const about = () => {
       </div>
       </div>
 
-      <div className="grid grid-cols-2 gap-4 drop-shadow-2xl mx-1 sm:mx-0">
+      <div className="grid grid-cols-2 gap-4  mx-1 sm:mx-0">
         <Image
           alt="Man on roof working"
           src={roofimg1}
