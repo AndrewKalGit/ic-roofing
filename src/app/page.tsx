@@ -6,7 +6,7 @@ import Footer from "../app/footer";
 
 export default function Home() {
   return (
-    <main>
+    <main className="bg-gray-100">
       <Header></Header>
       <Banner></Banner>
       {/* <Services></Services> */}
